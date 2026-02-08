@@ -97,3 +97,22 @@ button:active{
 .percentage{
     background-color: goldenrod;
 }
+
+/* Responsive for smaller screens */
+@media (max-width: 400px) {
+    .calculater {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #inputBox {
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+}
+
